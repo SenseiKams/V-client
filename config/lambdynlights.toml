@@ -65,6 +65,9 @@ mode = "fancy"
 				cave_spider = true
 				item_frame = true
 				cod = true
+				illusioner = true
+				wither_skeleton = true
+				experience_orb = true
 
 			[light_sources.settings.entities.naturalist]
 				cardinal = true
@@ -94,6 +97,7 @@ mode = "fancy"
 				amethyst_golem = true
 				blaze_guardian_shield = true
 				blaze_guardian = true
+				deer = true
 
 			[light_sources.settings.entities.biomemakeover]
 				rootling = true
@@ -108,6 +112,8 @@ mode = "fancy"
 
 			[light_sources.settings.entities.goodall]
 				songbird = true
+				manatee = true
+				pelican = true
 
 			[light_sources.settings.entities.rottencreatures]
 				undead_miner = true
@@ -115,6 +121,7 @@ mode = "fancy"
 			[light_sources.settings.entities.creatures_of_the_snow]
 				reindeer = true
 				narwhal = true
+				beluga = true
 
 			[light_sources.settings.entities.immersive_portals]
 				loading_indicator = true
