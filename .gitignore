@@ -1,0 +1,18 @@
+# Blocklist files/folders in same directory as the .gitignore file
+/*
+
+# Includelist some files
+!.gitignore
+!README.md
+
+# Include folders
+!mods/
+!config/
+
+# Include texture pack
+!resourcepacks/Graphics/
+!resourcepacks/Default-Dark-Mode-1.19-v1.3.4.zip
+!resourcepacks/NoBushyLeaves.zip
+!resourcepacks/Stay_True_1.19.zip
+!resourcepacks/Xaero's Minimap - Mod Icons.zip
+!resourcepacks/xali-s-Enchanted-Books-16x-v0.10.1.zip

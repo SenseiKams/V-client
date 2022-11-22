@@ -1,0 +1,133 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				pig = true
+				bat = true
+				creeper = true
+				villager = true
+				skeleton = true
+				zombie = true
+				spider = true
+				chest_minecart = true
+				item = true
+				squid = true
+				glow_squid = true
+				chicken = true
+				tnt_minecart = true
+				cat = true
+				witch = true
+				axolotl = true
+				wolf = true
+				bee = true
+				rabbit = true
+				cow = true
+				sheep = true
+				salmon = true
+				fox = true
+				allay = true
+				evoker = true
+				vindicator = true
+				pillager = true
+				slime = true
+				tropical_fish = true
+				drowned = true
+				dolphin = true
+				zombie_villager = true
+				enderman = true
+				turtle = true
+				strider = true
+				piglin = true
+				zombified_piglin = true
+				blaze = true
+				magma_cube = true
+				ghast = true
+				cave_spider = true
+				item_frame = true
+				cod = true
+
+			[light_sources.settings.entities.naturalist]
+				cardinal = true
+				deer = true
+				snail = true
+				snake = true
+				butterfly = true
+				firefly = true
+				robin = true
+				coral_snake = true
+				bear = true
+
+			[light_sources.settings.entities.galosphere]
+				spectre = true
+
+			[light_sources.settings.entities.more_babies]
+				creeper = true
+				skeleton = true
+				salmon = true
+				bat = true
+				spider = true
+				squid = true
+				glow_squid = true
+				cave_spider = true
+
+			[light_sources.settings.entities.adventurez]
+				amethyst_golem = true
+				blaze_guardian_shield = true
+				blaze_guardian = true
+
+			[light_sources.settings.entities.biomemakeover]
+				rootling = true
+				owl = true
+				adjudicator = true
+
+			[light_sources.settings.entities.duckling]
+				duck = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				glare = true
+
+			[light_sources.settings.entities.goodall]
+				songbird = true
+
+			[light_sources.settings.entities.rottencreatures]
+				undead_miner = true
+
+			[light_sources.settings.entities.creatures_of_the_snow]
+				reindeer = true
+				narwhal = true
+
+			[light_sources.settings.entities.immersive_portals]
+				loading_indicator = true
+				nether_portal_new = true
+
+			[light_sources.settings.entities.betternether]
+				firefly = true
+				hydrogen_jellyfish = true
+				naga = true
+				jungle_skeleton = true
+				skull = true
+
+			[light_sources.settings.entities.netherdepthsupgrade]
+				searing_cod = true
+				bonefish = true
+
